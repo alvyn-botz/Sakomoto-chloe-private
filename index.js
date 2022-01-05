@@ -387,7 +387,7 @@ await alpha.updatePresence(from, Presence.composing)
 		try {
 					pp_userb = await alpha.getProfilePicture(sender)
 				} catch {
-					pp_userb = 'https://i.ibb.co/BPt8Qs9/chloe.jpg'
+					pp_userb = 'https://i.ibb.co/M1LdKq6/IMG-20220105-WA0052.jpg'
 				}
 			let pp_userz = await getBuffer(pp_userb)
 		const getGroupAdminss = (participants) => {
@@ -4202,7 +4202,7 @@ if (!isGroup) return reply(lang.onlygc())
 					try {
 					ppimg = await alpha.getProfilePicture(from)
 					} catch {
-						ppimg = 'https://telegra.ph/file/c6716da37ab0a2eb3ffe9.jpg'
+						ppimg = 'https://i.ibb.co/NthF8ds/IMG-20201223-WA0740.jpg'
 					}
 					let buf = await getBuffer(ppimg)
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
