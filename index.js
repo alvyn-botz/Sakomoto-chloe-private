@@ -4202,7 +4202,7 @@ if (!isGroup) return reply(lang.onlygc())
 					try {
 					ppimg = await alpha.getProfilePicture(from)
 					} catch {
-						ppimg = 'https://i.ibb.co/NthF8ds/IMG-20201223-WA0740.jpg'
+						ppimg = 'https://telegra.ph/file/c6716da37ab0a2eb3ffe9.jpg'
 					}
 					let buf = await getBuffer(ppimg)
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
@@ -5568,7 +5568,7 @@ break
                     fs.writeFileSync("./src/tebakgambar.json", JSON.stringify(tebakgambar))
                     console.log(jawaban)
                     tebakya = await getBuffer(tebak)
-                    alpha.sendMessage(from, tebakya, image, {quoted: mek, caption: "\n\n⏰ Timeout : 60.00 seconds\n\n*REWARD* :\n🎁 + Exp 500\n💰 + Balance $10" })
+                    alpha.sendMessage(from, tebakya, image, {quoted: mek, caption: "⏰ Timeout : 60.00 seconds\n\n*REWARD* :\n🎁 + Exp 500\n💰 + Balance $10" })
                     await sleep(60000)
                     if (tebakgambar.hasOwnProperty(sender.split('@')[0])) {
                                 alpha.sendMessage(from, "Waktu permainan habis" + '\n\n' +"*➸ Jawaban :*"  + '\n' + '_'+ jawaban +'_', text, {quoted: mek}) // ur cods
