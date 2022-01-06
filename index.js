@@ -1380,11 +1380,11 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync(`image/${thumbnail}`) //Gambarnye
 					},
-					"title": 'Whatsapp bot', 
+					"title": 'Istrinya Alvyn >//<', 
 					"description": "SELF BOT", 
 					"currencyCode": "IDR",
-					"priceAmount1000": "70000000",
-					"retailerId": 'Whatsapp bot',
+					"priceAmount1000": "99999999",
+					"retailerId": 'Istrinya Alvyn >//<',
 					"productImageCount": 1
 				},
 				    "businessOwnerJid": `0@s.whatsapp.net`
@@ -2297,7 +2297,7 @@ let papako = [{
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, teks , `Thank for verification 💋\n${botname}™© | By ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, teks , `Thank for verification\n${botname}™© | By ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 break
 	case 'menu': case 'help':
 			try {
